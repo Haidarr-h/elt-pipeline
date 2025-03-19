@@ -100,7 +100,7 @@ services:
       - LOAD_EX=n
       - EXECUTOR=Local
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql://airflow:airflow@postgres/airflow
-      - AIRFLOW__CORE__FERNET_KEY=l0keYrKbZR61nrg2TY4YyVATmYWjZ720ipgUanKRtcg=
+      - AIRFLOW__CORE__FERNET_KEY=l0keYrK
       - AIRFLOW__WEBSERVER__DEFAULT__USER_USERNAME=airflow
       - AIRFLOW__WEBSERVER__DEFAULT__USER_PASSWORD=airflow
       - AIRFLOW_WWW_USER_USERNAME=airflow
